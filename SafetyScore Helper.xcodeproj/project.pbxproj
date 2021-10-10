@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB0AC6E3270E98C40090A09A /* MediaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0AC6E2270E98C40090A09A /* MediaManager.swift */; };
 		DBE04001270E56BA00B763A5 /* SafetyScore_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE04000270E56BA00B763A5 /* SafetyScore_HelperApp.swift */; };
 		DBE04003270E56BA00B763A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE04002270E56BA00B763A5 /* ContentView.swift */; };
 		DBE04005270E56BF00B763A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE04004270E56BF00B763A5 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		DBE04012270E56BF00B763A5 /* SafetyScore_HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE04011270E56BF00B763A5 /* SafetyScore_HelperTests.swift */; };
 		DBE0401C270E56BF00B763A5 /* SafetyScore_HelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0401B270E56BF00B763A5 /* SafetyScore_HelperUITests.swift */; };
 		DBE0401E270E56BF00B763A5 /* SafetyScore_HelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0401D270E56BF00B763A5 /* SafetyScore_HelperUITestsLaunchTests.swift */; };
+		DBE0402B270E573600B763A5 /* CoreMotionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0402A270E573600B763A5 /* CoreMotionAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB0AC6E2270E98C40090A09A /* MediaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManager.swift; sourceTree = "<group>"; };
 		DBE03FFD270E56BA00B763A5 /* SafetyScore Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SafetyScore Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE04000270E56BA00B763A5 /* SafetyScore_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyScore_HelperApp.swift; sourceTree = "<group>"; };
 		DBE04002270E56BA00B763A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		DBE04017270E56BF00B763A5 /* SafetyScore HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SafetyScore HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE0401B270E56BF00B763A5 /* SafetyScore_HelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyScore_HelperUITests.swift; sourceTree = "<group>"; };
 		DBE0401D270E56BF00B763A5 /* SafetyScore_HelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyScore_HelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBE0402A270E573600B763A5 /* CoreMotionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,12 @@
 		DBE03FFF270E56BA00B763A5 /* SafetyScore Helper */ = {
 			isa = PBXGroup;
 			children = (
+				DBE0402A270E573600B763A5 /* CoreMotionAdapter.swift */,
 				DBE04000270E56BA00B763A5 /* SafetyScore_HelperApp.swift */,
 				DBE04002270E56BA00B763A5 /* ContentView.swift */,
 				DBE04004270E56BF00B763A5 /* Assets.xcassets */,
 				DBE04006270E56BF00B763A5 /* Preview Content */,
+				DB0AC6E2270E98C40090A09A /* MediaManager.swift */,
 			);
 			path = "SafetyScore Helper";
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0AC6E3270E98C40090A09A /* MediaManager.swift in Sources */,
 				DBE04003270E56BA00B763A5 /* ContentView.swift in Sources */,
 				DBE04001270E56BA00B763A5 /* SafetyScore_HelperApp.swift in Sources */,
+				DBE0402B270E573600B763A5 /* CoreMotionAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +435,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +465,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

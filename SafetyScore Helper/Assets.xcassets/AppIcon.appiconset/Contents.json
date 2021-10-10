@@ -31,11 +31,13 @@
       "size" : "40x40"
     },
     {
+      "filename" : "safety-score-iPhone2x.jpeg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "safety-score-iPhone3x.jpeg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -81,6 +83,7 @@
       "size" : "76x76"
     },
     {
+      "filename" : "safety-score-iPadPro.jpeg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"
